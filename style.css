@@ -1,5 +1,5 @@
 body { 
-   background-image: url("gr-tech.jpg"); 
+   background-image: url("assets/gr-tech.jpg"); 
    background-size: cover;  
 }
 
@@ -21,7 +21,7 @@ font-stretch: expanded;
 margin-bottom: 0rem;
 }
 header {
-    background-image: url("gr-tech.jpg");
+    background-image: url("assets/gr-tech.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /* border-bottom: 1px solid black; */

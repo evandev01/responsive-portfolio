@@ -20,7 +20,7 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
-/* navbar */
+/* navbar bootstrap style*/
 .bg-light {
   background-color: #808080 !important;
 }
@@ -43,8 +43,9 @@ border-top: 4px groove rgb(0, 255, 76);
 border-right: 4px groove rgb(0, 255, 76);
 border-left: 4px groove rgb(0, 255, 76);
 }
-/* end navbar */
+/* end navbar bootstrap style*/
 
+/* applications bootstrap style*/
 .jumbotron {
     margin-left: 10%;
     margin-right: 10%;
@@ -53,7 +54,11 @@ border-left: 4px groove rgb(0, 255, 76);
     border-right: 1px groove rgba(192, 192, 192, 0.87);
     border-left: 1px groove rgba(192, 192, 192, 0.87);
     border-radius: 4px;
-
+}
+.jumbotron h4 {
+  font-family: michroma;
+  font-size: large;
+  font-weight: bold;
 }
 .flex-container {
   display: flex;
@@ -70,8 +75,7 @@ border-left: 4px groove rgb(0, 255, 76);
 .port-img{
     padding:20px;
 }
-
-
+/* end bootstrap applications style*/
 
 </style>
 
@@ -91,14 +95,14 @@ border-left: 4px groove rgb(0, 255, 76);
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="/Users/evanbero/unc/homework/responsive-portfolio/index/about.html">About <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="assets/about.html">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Portfolio</a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="/Users/evanbero/unc/homework/responsive-portfolio/contact/contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+              <a class="nav-link" href="assets/contact.html" tabindex="-1" aria-disabled="true">Contact</a>
             </li>
           </ul>
          
@@ -116,53 +120,46 @@ border-left: 4px groove rgb(0, 255, 76);
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-3">
-            <img src="eq-icon.png" alt="equalizer app icon" class="img-fluid port-img">
+            <img src="assets/eq-icon.png" alt="equalizer app icon" class="img-fluid port-img">
+            <h4>Equalizer</h4>
             </div>
              <div class="col-sm-12 col-md-6 col-lg-3">
-                <img src="flashlight.png" alt="flashlight app icon" class="img-fluid port-img"> 
+                <img src="assets/flashlight.png" alt="flashlight app icon" class="img-fluid port-img"> 
+                <h4>Flashlight</h4>
             </div>
              <div class="col-sm-12 col-md-6 col-lg-3">
-                <img src="games-icon.png" alt= "games app icon" class="img-fluid port-img"> 
+                <img src="assets/games-icon.png" alt= "games app icon" class="img-fluid port-img"> 
+                <h4>Games</h4>
             </div>  
              <div class="col-sm-12 col-md-6 col-lg-3">
-                <img src="ringtone.png" alt="ringtone app icon" class="img-fluid port-img">
+                <img src="assets/ringtone.png" alt="ringtone app icon" class="img-fluid port-img">
+                <h4>Custom Ringtones</h4>
             </div>          
              <div class="col-sm-12 col-md-6 col-lg-3">
-                <img src="emoji.png" alt="emoji app icon" class="img-fluid port-img"> 
+                <img src="assets/emoji.png" alt="emoji app icon" class="img-fluid port-img"> 
+                <h4>Emoji</h4>
             </div>
              <div class="col-sm-12 col-md-6 col-lg-3">
-                <img src="calculator.png" alt="calculator app icon" class="img-fluid port-img">
-            </div>
+                <img src="assets/calculator.png" alt="calculator app icon" class="img-fluid port-img">
+                <h4>Calculator</h4>
+              </div>
             <div class="col-sm-12 col-md-6 col-lg-3">
-                <img src="voice-changer.png" alt="voice changer app icon" class="img-fluid port-img">
-            </div>           
+                <img src="assets/voice-changer.png" alt="voice changer app icon" class="img-fluid port-img">
+                <h4>Voice Changer</h4>
+              </div>           
             <div class="col-sm-12 col-md-6 col-lg-3">
-                <img src="ani-wallpaper.png" alt="animated wallpaper app icon" class="img-fluid port-img">
+                <img src="assets/ani-wallpaper.png" alt="animated wallpaper app icon" class="img-fluid port-img">
+                <h4>Animated Wallpaper</h4>
             </div> 
         </div>
-
-
-
     </div>
 </div>      
-
-
-
-
-
-
-
-
-
 
 <footer>
   <div class="container">
     <div class="row">
       <div class="col-md-12 col-sm-6">
  <h6>&copy;evanDev</h6>
-
-
-
       </div>
     </div>
   </div>
