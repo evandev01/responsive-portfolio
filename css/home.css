@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+body {
+    background-image: url("../assets/gr-tech.jpg");
+    background-size: cover;
+}
+
+#navbarSupportedContent {
+    justify-content: center;
+}
+
+#greenLink {
+    color: rgb(0, 255, 76) !important;
+    font-family: Michroma;
+    font-size: 30px;
+}
+
+#greenLink:hover {
+    color: rgba(0, 0, 0, .9) !important;
+}
+
+#currentLink {
+    color: rgba(0, 0, 0, .9) !important;
+    font-family: Michroma;
+    font-size: 30px;
+}
+
+.navbar-toggler {
+    padding: 0rem;
+}
+
+#navbar {
+    background-color: #808080 !important;
+
+    border-top: 5px groove rgb(0, 255, 76);
+    border-right: 5px groove rgb(0, 255, 76);
+    border-left: 5px groove rgb(0, 255, 76);
+    border-bottom: 5px groove rgba(0, 0, 0, 0.63);
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+@media(max-width: 767px){
+    img{
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+    }
+    h4 {
+        text-align: center;
+        font-family: Michroma;
+        color: white;
+        font-size: 14px;
+    }
+}
+
+
+.logo h1 {
+    color: black;
+    text-shadow:
+        2px 2px 4px rgb(0, 255, 76),
+        2px 2px 4px #333333,
+        2px 2px 4px black,
+        2px 2px 4px #5a5a5a;
+
+    font-weight: bold;
+    font-family: michroma;
+    font-size: 90px;
+    line-height: 3.0;
+    text-align: center;
+    font-stretch: expanded;
+    margin-bottom: 0rem;
+}
+
+header {
+    background-image: url("../assets/gr-tech.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-bottom: 1px solid black; */
+}
+
+footer {
+    position: fixed;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #808080;
+    color: rgb(0, 255, 76);
+    text-align: center;
+}
+
+.container {
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #808080;
+}
+
+.jumbotron {
+    background-color: #808080 !important;
+}
+
+h4 {
+    text-align: center;
+    font-family: Michroma;
+    color: white;
+}
+
+.container header {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    font-family: Michroma;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-bottom: 20px;
+    line-height: 3.5;
+    text-shadow:
+        2px 2px 4px rgb(0, 255, 76),
+        2px 2px 4px white,
+        2px 2px 4px black,
+        2px 2px 4px #333333,
+        2px 2px 4px #5a5a5a;
+}
+
+footer {
+    border-top: 3px groove rgb(0, 255, 76);
+}

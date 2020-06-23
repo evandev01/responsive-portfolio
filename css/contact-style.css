@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+#navbarSupportedContent{
+    justify-content: center;
+}
+
+#redLink {
+    color: red !important;
+    font-family: Michroma;
+    font-size: 30px;
+}
+#redLink:hover{
+    color: rgba(0,0,0,.9) !important;
+}
+
+#currentLink{
+    color: rgba(0,0,0,.9) !important;
+    font-family: Michroma;
+    font-size: 30px;
+}
+
+.navbar-toggler {
+    padding: 0rem;
+}
+
+#navbar{
+    background-color: #808080 !important;
+}
+.jumbotron h1 {
+    font-size: 30px;
+    font-family: Michroma;
+    }
+.logo h1 {
+    color: #696969;
+    text-shadow:
+        4px 2px 4px #54c6f0,
+        2px 2px 4px black,
+        2px 2px 4px #808080;
+    font-weight: bold;
+    font-family: michroma;
+    font-size: 90px;
+    line-height: 3.0;
+    text-align: center;
+    font-stretch: expanded;
+    margin-bottom: 0rem;
+}
+
+header {
+    background-image: url("../assets/blue-hex.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background {
+    background-image: url("../assets/blue-hex.png");
+    background-size: cover;
+}
+
+footer {
+    position: fixed;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #808080;
+    color: red;
+    text-align: center;
+}
