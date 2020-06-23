@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
-#navbarSupportedContent{
+#navbarSupportedContent {
     justify-content: center;
 }
 
@@ -9,12 +9,13 @@
     font-family: Michroma;
     font-size: 30px;
 }
-#redLink:hover{
-    color: rgba(0,0,0,.9) !important;
+
+#redLink:hover {
+    color: rgba(0, 0, 0, .9) !important;
 }
 
-#currentLink{
-    color: rgba(0,0,0,.9) !important;
+#currentLink {
+    color: rgba(0, 0, 0, .9) !important;
     font-family: Michroma;
     font-size: 30px;
 }
@@ -23,7 +24,7 @@
     padding: 0rem;
 }
 
-#navbar{
+#navbar {
     background-color: #808080 !important;
 }
 
@@ -31,21 +32,24 @@ body {
     background-image: url("../assets/elegant-bk.jpg");
     background-size: cover;
 }
-#about-logo{
+
+#about-logo {
     background-image: url("../assets/elegant-bk.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .jumbotron {
     margin-left: 10%;
     margin-right: 10%;
     font-family: michroma;
     font-size: 18px;
 }
+
 .jumbotron h1 {
-  font-size: 30px;
-  font-family: michroma;
-  }
+    font-size: 30px;
+    font-family: michroma;
+}
 
 .logo h1 {
     color: #9e9e9e;

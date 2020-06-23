@@ -37,16 +37,19 @@ body {
     border-left: 5px groove rgb(0, 255, 76);
     border-bottom: 5px groove rgba(0, 0, 0, 0.63);
 }
-img{
+
+img {
     height: 300px;
     width: 300px;
 }
-@media(max-width: 767px){
-    img{
+
+@media(max-width: 767px) {
+    img {
         display: inline-block;
         height: 200px;
         width: 200px;
     }
+
     h4 {
         text-align: center;
         font-family: Michroma;

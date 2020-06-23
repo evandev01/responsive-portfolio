@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
-#navbarSupportedContent{
+#navbarSupportedContent {
     justify-content: center;
 }
 
@@ -9,12 +9,13 @@
     font-family: Michroma;
     font-size: 30px;
 }
-#redLink:hover{
-    color: rgba(0,0,0,.9) !important;
+
+#redLink:hover {
+    color: rgba(0, 0, 0, .9) !important;
 }
 
-#currentLink{
-    color: rgba(0,0,0,.9) !important;
+#currentLink {
+    color: rgba(0, 0, 0, .9) !important;
     font-family: Michroma;
     font-size: 30px;
 }
@@ -23,13 +24,15 @@
     padding: 0rem;
 }
 
-#navbar{
+#navbar {
     background-color: #808080 !important;
 }
+
 .jumbotron h1 {
     font-size: 30px;
     font-family: Michroma;
-    }
+}
+
 .logo h1 {
     color: #696969;
     text-shadow:
