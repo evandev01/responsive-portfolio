@@ -31,6 +31,18 @@
 .jumbotron h1 {
     font-size: 30px;
     font-family: Michroma;
+    text-align: center;
+}
+
+ul {
+    font-family: Michroma;
+    list-style-type: none;
+    text-align: center;
+}
+
+.contact {
+    font-family: Michroma;
+    text-align: center;
 }
 
 .logo h1 {
