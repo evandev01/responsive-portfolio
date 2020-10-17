@@ -3,7 +3,23 @@
 body {
     background-image: url("../assets/gr-tech.jpg");
     background-size: cover;
+    text-align: center !important;
 }
+
+#github-link{
+    text-justify: center !important;
+    color: #dfdfdf;
+    
+}
+
+#github-link:hover{
+    text-justify: center !important;
+    color: blue;
+    background-color: rgb(147, 147, 147);
+    
+}
+
+
 
 #navbarSupportedContent {
     justify-content: center;
