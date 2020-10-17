@@ -6,13 +6,13 @@ body {
     text-align: center !important;
 }
 
-#github-link{
+.github-link{
     text-justify: center !important;
     color: #dfdfdf;
     
 }
 
-#github-link:hover{
+.github-link:hover{
     text-justify: center !important;
     color: blue;
     background-color: rgb(147, 147, 147);
